@@ -102,6 +102,8 @@ public:
                 cout << queue_array[FRONT_position] << "  ";
                 FRONT_position++;
             }
+
+            FRONT_position = 0;
         }
     }
 };
